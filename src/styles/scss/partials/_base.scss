@@ -1,12 +1,22 @@
 .App {
-  background-color: #202226;
   width: 100vw;
   min-height: 100vh;
-}
-div#__next {
-  color: white;
-  background-color: red;
-  div {
-    background-color: black !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  // backdrop-filter: blur(4px);
+  input {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
   }
+}
+#root {
+  background-image: url(../images/pink.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
