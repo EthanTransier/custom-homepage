@@ -3,7 +3,7 @@
   width: 60rem;
   z-index: 2;
   .searchBar {
-    background-color: #1b1e23;
+    background-color: $primary-pink;
     color: white;
     height: 2.5rem;
     outline: none;
@@ -22,13 +22,13 @@
     height: 3.5rem;
     border-top-right-radius: 2.25rem;
     border-bottom-right-radius: 2.25rem;
-    background-color: #1b1e23;
+    background-color: $primary-pink;
     color: white;
 
     border-bottom: none;
     border-top: none;
     border-right: none;
-    border-left: #21252c 2px solid;
+    border-left: $secondary-pink 2px solid;
     outline: 0;
     svg {
       width: 1.25rem;

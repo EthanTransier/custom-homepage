@@ -27,7 +27,7 @@
   z-index: 2;
 }
 .searchContainer .searchBar {
-  background-color: #1b1e23;
+  background-color: #ffffff;
   color: white;
   height: 2.5rem;
   outline: none;
@@ -46,12 +46,12 @@
   height: 3.5rem;
   border-top-right-radius: 2.25rem;
   border-bottom-right-radius: 2.25rem;
-  background-color: #1b1e23;
+  background-color: #ffffff;
   color: white;
   border-bottom: none;
   border-top: none;
   border-right: none;
-  border-left: #21252c 2px solid;
+  border-left: #ffffff 2px solid;
   outline: 0;
 }
 .searchContainer .search svg {
