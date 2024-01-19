@@ -23,12 +23,12 @@
 
 .searchContainer {
   display: flex;
-  width: 60rem;
+  width: clamp(16rem, 7.64rem + 44.585vw, 60rem);
   z-index: 2;
 }
 .searchContainer .searchBar {
-  background-color: #1b1e23;
-  color: white;
+  background-color: #fff;
+  color: black;
   height: 2.5rem;
   outline: none;
   border: none;
@@ -46,12 +46,12 @@
   height: 3.5rem;
   border-top-right-radius: 2.25rem;
   border-bottom-right-radius: 2.25rem;
-  background-color: #1b1e23;
+  background-color: #fff;
   color: white;
   border-bottom: none;
   border-top: none;
   border-right: none;
-  border-left: #21252c 2px solid;
+  border-left: #fff 2px solid;
   outline: 0;
 }
 .searchContainer .search svg {
@@ -87,13 +87,20 @@
   color: white;
   font-family: monument-regular-italic;
   font-weight: normal;
-  font-size: 5rem;
+  font-size: clamp(1.5rem, 0.835rem + 3.547vw, 5rem);
+  text-align: center;
   letter-spacing: 1.5rem;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 0;
+  margin-top: 6.5rem;
+  margin-bottom: 1rem;
 }
 
 nav {
-  background-color: rgb(117, 227, 255);
+  background-color: rgb(171, 234, 255);
   position: absolute;
   height: 100vh;
   width: calc(7vw - 1rem);
@@ -116,15 +123,16 @@ nav input[type=radio] {
   background-color: #fff;
   /* Not removed via appearance */
   margin: 0;
+  border-radius: 10px;
 }
 nav input[type=radio]:checked {
   border: 1px solid black;
 }
 nav #theme1 {
-  background-image: url(../images/mountain.jpg);
+  background-image: url(../images/youtube.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 65%;
 }
 
 .active {

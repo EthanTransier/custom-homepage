@@ -1,10 +1,11 @@
 .searchContainer {
   display: flex;
-  width: 60rem;
+  // max-width: 60rem;
+  width: clamp(16rem, 7.64rem + 44.585vw, 60rem);
   z-index: 2;
   .searchBar {
-    background-color: #1b1e23;
-    color: white;
+    background-color: $light-primary;
+    color: black;
     height: 2.5rem;
     outline: none;
     border: none;
@@ -22,13 +23,13 @@
     height: 3.5rem;
     border-top-right-radius: 2.25rem;
     border-bottom-right-radius: 2.25rem;
-    background-color: #1b1e23;
+    background-color: $light-primary;
     color: white;
 
     border-bottom: none;
     border-top: none;
     border-right: none;
-    border-left: #21252c 2px solid;
+    border-left: $light-primary 2px solid;
     outline: 0;
     svg {
       width: 1.25rem;
